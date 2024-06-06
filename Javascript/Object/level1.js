@@ -32,3 +32,10 @@ console.log(person4);
 const book5 = { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: 1925, price: 15 };
 delete book5.price;
 console.log(book5);
+
+
+// Q6: Retrieve the value of the 'department' property from the 'employee' object.
+// Expected output:
+// 'HR'
+const employee6 = { name: 'John', age: 28, department: 'HR', salary: 60000 };
+console.log(employee6.department);
