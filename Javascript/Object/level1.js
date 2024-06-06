@@ -60,3 +60,13 @@ console.log(person8.firstName+' '+person8.lastName);
 const cart9 = { item: 'Book', quantity: 2, total: 30 };
 cart9.quantity++;
 console.log(cart9);
+
+
+// Q10: Check if the 'price' property in the 'product' object is less than 100.
+// Expected output:
+// false
+const product10 = { name: 'Phone', price: 150 };
+if(product10.price<100){
+  console.log(true);}
+else
+  console.log(false);
