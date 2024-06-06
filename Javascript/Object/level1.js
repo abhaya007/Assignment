@@ -47,3 +47,9 @@ console.log(employee6.department);
 const box7 = { type: 'box', dimensions: { length: 10, width: 8, height: 6 } };
 box7.size = 'large';
 console.log(box7);
+
+// Q8: Concatenate the 'firstName' and 'lastName' properties of the 'person' object with a space in between.
+// Expected output:
+// 'John Doe'
+const person8 = { firstName: 'John', lastName: 'Doe', age: 25 };
+console.log(person8.firstName+' '+person8.lastName);
