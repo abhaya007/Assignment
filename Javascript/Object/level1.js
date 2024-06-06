@@ -24,3 +24,11 @@ console.log(product3.quantity*product3.price);
 const person4 = { name: 'Alice', age: 30, city: 'New York' };
 person4.age=35;
 console.log(person4);
+
+
+// Q5: Remove the 'price' property from the 'book' object.
+// Expected output:
+// { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: 1925 }
+const book5 = { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: 1925, price: 15 };
+delete book5.price;
+console.log(book5);
