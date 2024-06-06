@@ -2,8 +2,7 @@
 // Expected output:
 // 'Civic'
 const car1 = { make: 'Honda', model: 'Civic', year: 2020 };
-const value= car1['model'];
-console.log(value);
+console.log(car1.model);
 
 // Q2: Add a new property 'color' with the value 'red' to the 'shirt' object.
 // Expected output:
