@@ -39,3 +39,11 @@ console.log(book5);
 // 'HR'
 const employee6 = { name: 'John', age: 28, department: 'HR', salary: 60000 };
 console.log(employee6.department);
+
+
+// Q7: Add a new property 'size' with the value 'large' to the 'box' object.
+// Expected output:
+// { type: 'box', dimensions: { length: 10, width: 8, height: 6 }, size: 'large' }
+const box7 = { type: 'box', dimensions: { length: 10, width: 8, height: 6 } };
+box7.size = 'large';
+console.log(box7);
