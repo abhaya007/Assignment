@@ -18,3 +18,10 @@ const product3 = { name: 'Laptop', price: 800 };
 product3.quantity = 10;
 console.log(product3);
 
+// Q4: Check if all properties ('make', 'model', 'year') exist in the 'car' object.
+// Expected output:
+// false
+const car4 = { make: 'Toyota', year: 2021 };
+const checkAllProperties = car4.hasOwnProperty('make')&&car4.hasOwnProperty('model')&&car4.hasOwnProperty('year')
+console.log(checkAllProperties);
+
