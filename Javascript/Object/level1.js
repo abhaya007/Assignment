@@ -11,3 +11,9 @@ console.log(value);
 const shirt2 = { size: 'large', material: 'cotton' };
 const shirt = {size: 'large', material: 'cotton', color: 'red'};
 console.log(shirt);
+
+// Q3: Calculate the total price by multiplying the 'quantity' and 'price' properties of the 'product' object.
+// Expected output:
+// 400
+const product3 = { name: 'Laptop', quantity: 2, price: 200 };
+console.log(product3.quantity*product3.price);
