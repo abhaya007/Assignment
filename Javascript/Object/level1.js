@@ -17,3 +17,10 @@ console.log(shirt);
 // 400
 const product3 = { name: 'Laptop', quantity: 2, price: 200 };
 console.log(product3.quantity*product3.price);
+
+// Q4: Update the value of the 'age' property in the 'person' object to 35.
+// Expected output:
+// { name: 'Alice', age: 35, city: 'New York' }
+const person4 = { name: 'Alice', age: 30, city: 'New York' };
+person4.age=35;
+console.log(person4);
