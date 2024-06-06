@@ -10,3 +10,11 @@ console.log(person1.firstName+' '+person1.lastName)
 const details1 = { name: 'John', age: 25 };
 const details2 = { city: 'New York', hobby: 'Soccer' };
 console.log(Object.assign(details1,details2));
+
+// Q3: Add a new property 'quantity' with the value 10 to the 'product' object, if it doesn't already exist.
+// Expected output:
+// { name: 'Laptop', price: 800, quantity: 10 }
+const product3 = { name: 'Laptop', price: 800 };
+product3.quantity = 10;
+console.log(product3);
+
