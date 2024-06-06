@@ -53,3 +53,10 @@ console.log(box7);
 // 'John Doe'
 const person8 = { firstName: 'John', lastName: 'Doe', age: 25 };
 console.log(person8.firstName+' '+person8.lastName);
+
+// Q9: Increment the value of the 'quantity' property in the 'cart' object by 1.
+// Expected output:
+// { item: 'Book', quantity: 3, total: 45 }
+const cart9 = { item: 'Book', quantity: 2, total: 30 };
+cart9.quantity++;
+console.log(cart9);
