@@ -25,3 +25,10 @@ const car4 = { make: 'Toyota', year: 2021 };
 const checkAllProperties = car4.hasOwnProperty('make')&&car4.hasOwnProperty('model')&&car4.hasOwnProperty('year')
 console.log(checkAllProperties);
 
+// Q5: Create a copy of the 'student' object without modifying the original object.
+// Expected output:
+// { name: 'Alice', age: 20, grade: 'A' }
+const student5 = { name: 'Alice', age: 20, grade: 'A' };
+const copy = student5;
+console.log(copy);
+
