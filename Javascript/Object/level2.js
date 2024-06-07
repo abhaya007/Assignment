@@ -54,3 +54,14 @@ console.log(arr);
 // ['John', 25, 'New York']
 const data8 = { name: 'John', age: 25, city: 'New York' };
 console.log(Object.values(data8));
+
+// Q9: Check if any property in the 'book' object has a value of null.
+// Expected output:
+// false
+const book9 = { title: 'JavaScript Basics', author: 'John Smith', year: 2020 };
+if(Object.values(book9) === 'null')
+  {
+    conslole.log(true);
+  }
+else
+  console.log(false);
