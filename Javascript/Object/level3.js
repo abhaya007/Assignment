@@ -18,3 +18,17 @@ function ageTeller(person)
     }
 }
 ageTeller(person1);
+
+// Q2: Create a function that takes the 'inventory' object and returns the total number of items in stock.
+// Expected output for inventory2: 23
+const inventory2 = { apples: 10, bananas: 5, oranges: 8 };
+function totalStock(inventory)
+{
+  const arr=Object.values(inventory);
+  let sum = 0;
+  arr.forEach((item, id)=>{
+  sum = sum + item;
+  })
+return sum;
+}
+totalStock(inventory2);
