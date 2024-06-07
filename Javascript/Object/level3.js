@@ -32,3 +32,12 @@ function totalStock(inventory)
 return sum;
 }
 totalStock(inventory2);
+
+// Q3: Create a function that takes the 'students' object and returns an array of student names.
+// Expected output for students3: ['Alice', 'Bob', 'Emma']
+const students3 = { student1: 'Alice', student2: 'Bob', student3: 'Emma' };
+function nameArr(students)
+{
+  return Object.values(students);
+}
+nameArr(students3);
