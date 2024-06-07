@@ -48,3 +48,9 @@ else
 const inventory7 = { apples: 10, bananas: 5, oranges: 8 };
 const arr= Object.keys(inventory7);
 console.log(arr);
+
+// Q8: Create an array of all the property values from the 'data' object.
+// Expected output:
+// ['John', 25, 'New York']
+const data8 = { name: 'John', age: 25, city: 'New York' };
+console.log(Object.values(data8));
