@@ -65,3 +65,10 @@ if(Object.values(book9) === 'null')
   }
 else
   console.log(false);
+
+  // Q10: Reverse the 'fullName' property value in the 'person' object.
+// Expected output:
+// 'doe John'
+const person10 = { fullName: 'John doe' };
+reversedName = person10.fullName.split(' ').reverse().join(' ');
+console.log(reversedName);
