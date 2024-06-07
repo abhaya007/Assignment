@@ -41,3 +41,10 @@ if (typeof(user6.address)=== 'string'){
 }
 else 
   console.log(false);
+
+  // Q7: Retrieve the keys of the 'inventory' object as an array.
+// Expected output:
+// ['apples', 'bananas', 'oranges']
+const inventory7 = { apples: 10, bananas: 5, oranges: 8 };
+const arr= Object.keys(inventory7);
+console.log(arr);
