@@ -41,3 +41,17 @@ function nameArr(students)
   return Object.values(students);
 }
 nameArr(students3);
+
+// Q4: Create a function that takes the 'details' object and checks if all properties have values.
+// Expected output for details4: true
+const details4 = { name: 'John', age: 25, city: 'New York' };
+function checkValues(details)
+{
+  if(Object.values(details))
+  {
+    console.log(true);
+  }
+  else
+    return false;
+}
+checkValues(details4);
