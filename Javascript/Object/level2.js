@@ -32,3 +32,12 @@ const student5 = { name: 'Alice', age: 20, grade: 'A' };
 const copy = student5;
 console.log(copy);
 
+// Q6: Check if the 'address' property in the 'user' object is a string.
+// Expected output:
+// true
+const user6 = { name: 'John', age: 30, address: '123 Main St' };
+if (typeof(user6.address)=== 'string'){
+  console.log(true);
+}
+else 
+  console.log(false);
