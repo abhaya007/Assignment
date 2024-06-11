@@ -55,3 +55,68 @@ function checkValues(details)
     return false;
 }
 checkValues(details4);
+
+// Q5: Create a function that takes the 'products' object and returns the average price of all products.
+// Expected output for products5: 116.67
+const products5 = { product1: { name: 'Laptop', price: 800 }, product2: { name: 'Phone', price: 100 }, product3: { name: 'Tablet', price: 150 } };
+function averagePrice(products)
+{ 
+  totalPrice = products.product1.price+products.product2.price+products.product3.price;
+  return totalPrice/3; 
+}
+averagePrice(products5);
+
+
+
+// Q6: Create a function that takes the 'scores' object and returns the highest score.
+// Expected output for scores6: 95
+const scores6 = { math: 85, science: 90, english: 95 };
+function highScore(scores)
+{
+  const a = Object.values(scores6);
+  return Math.max(...a);
+}
+highScore(scores6);
+
+
+// Q7: Create a function that takes the 'employees' object and returns the average salary.
+// Expected output for employees7: 55000
+const employees7 = { emp1: { name: 'John', salary: 60000 }, emp2: { name: 'Alice', salary: 50000 }, emp3: { name: 'Bob', salary: 55000 } };
+function avgSalary(employees){
+  return (employees.emp1.salary+employees.emp2.salary+employees.emp3.salary)/3
+}
+avgSalary(employees7);
+
+// Q8: Create a function that takes the 'data' object and returns an array of values sorted in ascending order.
+// Expected output for data8: [25, 'John', 'New York']
+const data8 = { name: 'John', age: 25, city: 'New York' };
+
+function ascSort(data){
+   return  Object.values(data).sort();
+}
+ascSort(data8);
+
+// Q9: Create a function that takes the 'order' object and calculates the total cost based on quantity and price.
+// Expected output for order9: 150
+const order9 = { item: 'Laptop', quantity: 2, price: 75 };
+
+function totalCost(order){
+  const sum = order.quantity * order.price;
+  return sum;
+}
+totalCost(order9);
+
+// Q10: Create a function that takes the 'expenses' object and returns the total amount spent.
+// Expected output for expenses10: 500
+const expenses10 = { rent: 200, groceries: 150, utilities: 100, entertainment: 50 };
+
+function totalAmt(expenses)
+{
+  const arr = Object.values(expenses);
+  arr.reduce((total, item)=>{
+    total = total + item;
+    return total;
+ },0);
+}
+totalAmt(expenses10);
+//o/p not showing in runjs
